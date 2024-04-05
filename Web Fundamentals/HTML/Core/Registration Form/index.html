@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form>
+        <label for="name">First Name: * <input id="name" type="text" required ></label><br>
+        <label for="last-name">Last Name: * <input id="last-name" type="text" required></label><br>
+        <label for="email">Email Address: * <input id="email" type="email" required></label><br>
+        <label for="password">Password: * <input id="password" type="password" required></label><br>
+        <label for="confirm-password">Confirm Password: * <input id="confirm-password" type="password" required></label><br>
+        <label for="birthday">Birthday: * <input id="birthday" type="date"></label><br>
+        <label for="gender">Gender Identity: 
+            <input id="gender" name="gender" type="radio"> Male</input>
+            <input id="gender" name="gender" type="radio"> Female</input>
+            <input id="gender" name="gender" type="radio"> Non-binary</input>
+            <input id="gender" name="gender" type="radio"> I prefer not to say</input>
+        </label><br>
+        <p>A Short Discription Of Myself:</p>
+        <textarea id="discription"></textarea><br>
+        <label for="programming-len">Favourite Language:</label>
+
+        <select name="programming-len" id="programming-len">
+            <option value="javascript">Javascript</option>
+            <option value="python">Python</option>
+            <option value="c">C</option>
+            <option value="php">PHP</option>
+            <option value="java">Java</option>
+        </select><br>
+        <label><input type="checkbox"> Yes, I would like to recieve periodic email updates</label><br>
+        <label for="submit">
+            <button id="submit">Cearte Account</button>
+        </label><br>
+        <p>* Indicates a required field</p>
+    </form>
+    
+</body>
+</html>

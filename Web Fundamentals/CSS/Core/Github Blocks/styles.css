@@ -1,0 +1,46 @@
+body{
+    background-color: whitesmoke;
+    width: 900px;
+    margin: 0px auto;
+
+}
+
+.top-nav {
+    height: 250px;
+    background-color: rgb(29, 99, 168);
+    margin-bottom:20px;
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.middle-nav {
+    height: 250px;
+    background-color: rgb(230, 69, 69);
+    margin-bottom:20px;
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;   
+}
+
+.bottom-nav {
+    height: 250px;
+    background-color: white;
+    margin-bottom: 20px;
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;   
+}
+
+.github {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #48485A;
+}
+.img-octocat {
+    height: 200px;
+}
+

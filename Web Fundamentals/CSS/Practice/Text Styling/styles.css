@@ -1,0 +1,22 @@
+*{
+    font-family: cursive;
+}
+span {
+    color: whitesmoke;
+}
+.mycloud {
+    background-color: black;
+    color: lightskyblue;
+}
+.projects {
+    background-color: #663399;
+    color: white;
+    font-style: italic;
+    text-align: center;
+}
+.contact {
+    color: black;
+    background-color: #9FC5F8;
+    text-decoration: underline;
+    text-align:right;
+}

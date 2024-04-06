@@ -1,0 +1,49 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+      
+  /* Fixed width container class that will "auto-center" itself */
+  .container {
+    width: 1200px;
+    margin: 0 auto;
+  }
+  .btn {
+    border: 2px solid #34A9AA;
+    border-radius: 50px;
+    padding: 5px 30px;
+    color: #34A9AA;
+    background-color: #F5F5F5;
+}  
+.row {
+    display: flex;
+}
+
+
+.col, .col-2, .col-3 {
+    background-color: seagreen;
+    margin: 5px;
+    padding: 10px;
+    flex: 1;
+}
+.col-2 {
+    flex: 2;
+}
+.col-3 {
+    flex: 3;
+}
+.navbar {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: darkslategrey;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

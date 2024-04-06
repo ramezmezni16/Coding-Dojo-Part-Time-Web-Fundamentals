@@ -1,0 +1,86 @@
+*{
+    color: white;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Navbar */
+div .navbar {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: darkslategrey;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+}
+
+
+.active {
+    font-weight: bold;
+}
+
+
+.btn {
+    background-color:blueviolet;
+    padding: 4px 20px;
+}
+
+/* user card */
+.container {
+    width: 40%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.user-card {
+    width: 100%;
+    background-color: whitesmoke;
+    border: 3px solid lightgray;
+    border-radius: 10px;
+}
+
+.user-info {
+    margin: 30px;
+}
+
+.header {
+    background-color: lightslategray;
+    height: 125px;
+    margin-bottom: 70px;
+}
+
+#user-icon {
+    height: 150px;
+    background-color: whitesmoke;
+    border: 2px solid black;
+    border-radius: 50%;
+    padding: 3px;
+    margin: 20px 0px 0px 20px;
+}
+
+#image {
+    height: 15px;
+}
+
+h3, p {
+    margin-top: 10px;
+    padding: 10px;
+    align-items: center;
+
+}

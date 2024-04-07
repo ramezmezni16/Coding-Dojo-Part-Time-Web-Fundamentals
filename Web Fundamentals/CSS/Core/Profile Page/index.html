@@ -7,41 +7,57 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
-    
-    <!--Navbar-->
-    <div class="navbar">
-        <h1 class="nav-title">Profile</h1>
-        <ul class="nav-links">
-            <li><a href="#">Home</a></li>
-            <li><a href="#" class="active"><legend>My Profile</legend></a></li>
-            <li><a href="#">Find Connections</a></li>
-            <li><button class="btn">Sign Out</button></li>
-        </ul>
-    </div>
-
-
-    <!--User Card-->
-    <div class="card-container">
-        <div class="user-card">
-            <div class="header">
-                <img id="user-icon" src="./icons/user-circle.png" alt="user icon">
-            </div>
-            <div class="user-info">
-                <h3>
-                    <img id="image" src="./icons/map-marker.png" alt="map marker icon">
-                    Seattle
-                </h3>
-                <p>Developer | Engineer | Problem Solver</br>
-                Master of shadows and the Internet!
-                </p>
-                <p>
-                    <a href="#"><img id="image" src="./icons/gear.png" alt="gear icon"> edit profile</a>
-                </p>
-            </div>  
+        <!--Navbar-->
+        <div class="navbar">
+            <h1 class="nav-title">Profile</h1>
+            <ul class="nav-links">
+                <li><a href="#" id="li">Home</a></li>
+                <li><a href="#" id="active"><legend>My Profile</legend></a></li>
+                <li><a href="#" id="li">Find Connections</a></li>
+                <li><button class="btn">Sign Out</button></li>
+            </ul>
         </div>
-    </div>    
-      
+    <div id="page">
+        <!--User Card-->
+        <div class="card-container">
+            <div class="user-card">
+                <div class="header">
+                    <img id="user-icon" src="./images/jane-m.jpg" alt="user icon">
+                </div>
+                <div class="user-info">
+                    <h1 class="jane">Jane Doe</h1>
+                    <h3>
+                        <img id="image" src="./icons/map-marker.png" alt="map marker icon">
+                        Seattle
+                    </h3>
+                    <p>Developer | Engineer | Problem Solver</br>
+                    Master of shadows and the Internet!
+                    </p>
+                    <p>
+                        <a href="#"><img id="image" src="./icons/gear.png" alt="gear icon"> edit profile</a>
+                    </p>
+                </div>  
+            </div>
+        </div>
+
+
+        <!--connection requests-->
+        <div class="requests-container">
+            <div class="connection-req">
+                <div class="header-1">
+                    <h2 id="req-title">Connection Requests</h2>
+                </div>
+                <span id="requests">
+                    <span class="requests-1">
+                        <img src="./images/todd-s.jpg" class="image-2"><span id="names">Todd E</span><img src="./icons/accept-circle.png" class="image-1"><img src="./icons/close-circle.png" class="image-1">
+                    </span></br>
+                    <span class="requests-2">
+                        <img src="./images/phil-s.jpg" class="image-2"><span id="names">Phil K</span><img src="./icons/accept-circle.png" class="image-1"><img src="./icons/close-circle.png" class="image-1">
+                    </span>
+                </span>
+            </div>
+        </div>    
+    </div> 
       
 
 

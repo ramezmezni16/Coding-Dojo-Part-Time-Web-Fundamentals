@@ -8,34 +8,31 @@ body {
     background-color: #f3f3f3;
 }
 
-
-
-
-/* Navbar */
-.top {
-    background-color: #333333;
+.navbar {
+    background-color: darkslategray;
 }
 
 .nav {
-    width: 1080px;
+    width: 100%;
     margin: 0 auto;
-    color: #ffffff;
-    height: 80px;
+    color: white;
+    height: 60px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
 .nav-links {
-    width: 50%;
+    width: 30%;
     display: flex;
     align-items: center;
     list-style-type: none;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding-right: 20px;
 }
 
 .nav a {
-    color: #ffffff;
+    color: white;
     text-decoration: none;
 }
 
@@ -43,36 +40,31 @@ body {
     margin-left: 20px;
 }
 
-.btn {
-    height: 35px;
+.btn { 
+    padding: 10px;
     width: 100px;
-    background-color: #17a2b8;
-    color: #ffffff;
+    background-color: darkcyan;
+    color: white;
     border: none;
     font-size: 16px;
-    box-shadow: 5px 5px #000000;
 }
 
-
-
-
-/* the whole page*/
-.container {
-    width: 1080px;
+.main-container {
     margin: 0 auto;
+    width: 1000px;
 }
 
 .row {
     display: flex;
 }
 
-.col, .col-2 {
+.right-column, .left-column {
     margin: 10px;
     padding: 10px;
     flex: 1;
 }
 
-.col-2 {
+.left-column {
     flex: 2;
 }
 
@@ -94,24 +86,21 @@ body {
     overflow: hidden;
 }
 
-.card-header {
+.header-1 {
     background-color: #17a2b8;
     height: 125px;
     margin-bottom: 70px;
 }
 
-.card-body {
+.card-info {
     padding: 20px;
 }
 
-.card-body h1, 
-.card-body h2,
-.card-body h3,
-.card-body p {
+h1, h2, h3, p {
     margin: 20px 0px;
 }
 
-.avatar-m {
+.jane-photo {
     border-radius: 50%;
     background-color: #fff;
     height: 190px;
@@ -120,7 +109,7 @@ body {
     margin-left: 20px;
 }
 
-.icon-s {
+.icon {
     height: 20px;
 }
 
@@ -128,7 +117,7 @@ a {
     color: #3a81e6;
 }
 
-.header {
+.header-2 {
     background-color: #333333;
     padding: 20px;
     color: #ffffff;
@@ -137,19 +126,19 @@ a {
     align-items: center;
 }
 
-.avatar-s {
+.users-images {
     border-radius: 50%;
     height: 48px;
     margin-right: 10px;
 }
 
-.user-line {
+.users {
     display: flex;
     justify-content: space-between;
     margin: 20px;
 }
 
-.start, .end {
+.user-names, .status {
     display: flex;
     align-items: center;
     font-size: 24px;
@@ -165,7 +154,7 @@ a {
     border-top: 2px solid #999;
 }
 
-.connections {
+.connection {
     background-color: #eee;
     color: #333;
     font-size: 20px;

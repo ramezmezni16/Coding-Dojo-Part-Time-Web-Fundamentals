@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: cursive;
+}
+
+.navbar {
+    background-color: darkcyan;
+}
+.nav {
+    font-size: 1.2rem;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#search-bar{
+    font-size: 1rem;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    padding-right: 200px;
+    padding-left: 200px;
+    text-align: center;
+}
+#btn {
+    font-size: 1rem;
+    color: white;
+    background-color: blueviolet;
+    padding: 10px 50px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.left-column {
+    margin: 0 auto;
+    justify-items: center;
+    justify-content: center;
+    padding-right: -150px;
+}
+.ninja-01, .ninja-02 {
+    display: flex;
+    border: 5px solid black;
+    margin-top: 30px;
+    margin-left: 200px;
+}
+.left-side {
+    font-size: 1.2rem;
+    padding: 50px;
+    margin: 10px; 
+}
+.like {
+    background-color: chartreuse;
+    margin-top: 30px;
+    padding: 5px 30px;
+}
+.right-side {
+    font-size: 1.6rem;
+    padding-top: 120px;
+    padding-left: 120px;
+    padding-right: 120px;
+    text-align: center;
+}
+.right-column {
+    margin: 0 auto;
+    text-align: center;
+    justify-items: center;
+    justify-content: center;
+}
+.remove {
+    border: 5px solid black;
+    margin-top: 30px;
+    margin-right: 400px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.remove-btn {
+    margin: 50px 0px;
+    padding: 10px 50px 10px 50px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    background-color: chartreuse;
+
+    
+}

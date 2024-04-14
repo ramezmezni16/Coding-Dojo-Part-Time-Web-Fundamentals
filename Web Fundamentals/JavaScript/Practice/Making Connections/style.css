@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f3f3f3;
+}
+
+.navbar {
+    background-color: darkslategray;
+}
+
+.nav {
+    width: 100%;
+    margin: 0 auto;
+    color: white;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-links {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    justify-content: space-between;
+    padding-right: 20px;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-title {
+    margin-left: 20px;
+}
+
+.btn { 
+    padding: 10px;
+    width: 100px;
+    background-color: darkcyan;
+    color: white;
+    border: none;
+    font-size: 16px;
+}
+
+.main-container {
+    margin: 0 auto;
+    width: 1000px;
+}
+
+.row {
+    display: flex;
+}
+
+.right-column, .left-column {
+    margin: 10px;
+    padding: 10px;
+    flex: 1;
+}
+
+.left-column {
+    flex: 2;
+}
+
+.flex-container {
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user-card, .card {
+    width: 100%;
+    background-color: #fff;
+    border: 2px solid #999;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    overflow: hidden;
+}
+
+.header-1 {
+    background-color: #17a2b8;
+    height: 125px;
+    margin-bottom: 70px;
+}
+
+.card-info {
+    padding: 20px;
+}
+
+h1, h2, h3, p {
+    margin: 20px 0px;
+}
+
+.jane-photo {
+    border-radius: 50%;
+    background-color: #fff;
+    height: 190px;
+    padding: 5px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.icon {
+    height: 20px;
+}
+
+a {
+    color: #3a81e6;
+}
+
+.header-2 {
+    background-color: #333333;
+    padding: 20px;
+    color: #ffffff;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+}
+
+.users-images {
+    border-radius: 50%;
+    height: 48px;
+    margin-right: 10px;
+}
+
+.users {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.user-names, .status {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+}
+
+.dates {
+    font-size: 20px;
+    color: #777;
+}
+
+.footer {
+    padding: 20px;
+    border-top: 2px solid #999;
+}
+
+.connection {
+    background-color: #eee;
+    color: #333;
+    font-size: 20px;
+    border-radius: 12px;
+    height: 24px;
+    padding: 0 10px;
+    margin-right: 10px;
+}

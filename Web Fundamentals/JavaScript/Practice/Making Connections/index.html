@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Making Connections</title>
     <link rel="stylesheet" href="style.css"> 
 </head>
 <body>
@@ -28,7 +28,7 @@
                         <img src="images/jane-m.jpg" alt="jane-medium-avatar" class="jane-photo">
                     </div>
                     <div class="card-info">
-                        <h1>Jane Doe</h1>
+                        <h1 id="Jane-doe-01">Jane Doe</h1>
                         <h3>
                             <img src="images/map-marker.png" alt="pin" class="icon"> 
                             Seattle
@@ -36,7 +36,7 @@
                         <p>Developer | Engineer | Problem Solver<br>
                         Master of shadows and the Internet!</p>
                         <p>
-                            <a href="#">
+                            <a href="#" onclick="NameChange()">
                                 <img src="images/gear.png" alt="gear" class="icon"> 
                                 edit profile
                             </a>
@@ -61,33 +61,33 @@
             <div class="right-column">
                 <div class="card">
                     <div class="header-2">
-                        <span class="connection">2</span>
+                        <span class="connection" id="connec">2</span>
                         Connection Requests
                     </div>
-                    <div class="users">
+                    <div class="users" id="user-001">
                         <span class="users-names">
                             <img src="images/todd-s.jpg" alt="todd" class="users-images">
                             <span>Todd E.</span>
                         </span>
                         <span class="status">
-                            <img src="images/accept-circle.png" alt="accept" class="users-images">
-                            <img src="images/close-circle.png" alt="decline" class="users-images">
+                            <img src="images/accept-circle.png" alt="accept" class="users-images" onclick="hide()">
+                            <img src="images/close-circle.png" alt="decline" class="users-images" onclick="hide()">
                         </span>
                     </div>
-                    <div class="users">
+                    <div class="users" id="user-002">
                         <span class="users-names">
                             <img src="images/phil-s.jpg" alt="phil" class="users-images">
                             <span>Phil K.</span>
                         </span>
                         <span class="status">
-                            <img src="images/accept-circle.png" alt="accept" class="users-images">
-                            <img src="images/close-circle.png" alt="decline" class="users-images">
+                            <img src="images/accept-circle.png" alt="accept" class="users-images" onclick="hidehide()">
+                            <img src="images/close-circle.png" alt="decline" class="users-images" onclick="hidehide()">
                         </span>
                     </div>
                 </div>
                 <div class="card">
                     <div class="header-2">
-                        <span class="connection">500+</span>
+                        <span class="connection" id="connect">500+</span>
                         Your Connections
                     </div>
                     <div class="users">

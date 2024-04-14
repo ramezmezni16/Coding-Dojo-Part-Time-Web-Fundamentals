@@ -1,0 +1,76 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: cursive;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.nav {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.feed {
+    text-align: center;
+    padding-bottom: 20px;
+    margin: 10px;
+}
+
+.row {
+    display: flex;
+}
+.user-circle {
+    height: 130px;
+    margin-bottom: 10px;
+}
+
+.left-col p {
+    margin-bottom: 30px;
+}
+
+.left-col {
+    flex: 1;
+}
+.user-info {
+    border: 5px solid black;
+    padding: 67px;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.right-col {
+    flex: 2;
+    margin-left: 30px;
+}
+.like {
+    border: 5px solid black;
+    margin-bottom: 30px;
+    padding: 40px;
+}
+
+.top {
+    height: 39px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.btn {
+    background-color: yellowgreen;
+    padding: 7px 15px;
+    border: 2px solid black;
+    box-shadow: 2px 2px black;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+

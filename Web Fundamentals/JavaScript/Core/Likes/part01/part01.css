@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+
+.container {
+    display: flex;
+    margin: 0 auto;
+}
+.post {
+    width: 35%;
+    border: 2px solid black;
+    margin-top: 200px;
+    margin-left: 600px;
+    padding-bottom: 15px;
+}
+
+.top, #likes {
+    align-items: center;
+    display: flex;
+    margin: 50px;
+}
+#likes {
+    margin-left: 220px;
+    justify-content: space-between;
+}
+    
+#btn {
+    background-color: cadetblue;
+    color: white;
+    padding: 15px 40px 15px 40px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+.just-text {
+    position: fixed;
+    padding-top: 200px;
+    font-size: 1.2rem;
+}

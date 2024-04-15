@@ -11,16 +11,16 @@
         <div class="nav">
             <h1 class="nav-title">DojoWeather</h1>
             <ul class="nav-links">
-                <li><a href="#">Burbank</a></li>
-                <li><a href="#">Chicago</a></li>
-                <li><a href="#">Dallas</a></li>
+                <li><a href="#" onclick="alert('Loading weather report...')">Burbank</a></li>
+                <li><a href="#" onclick="alert('Loading weather report...')">Chicago</a></li>
+                <li><a href="#" onclick="alert('Loading weather report...')">Dallas</a></li>
             </ul>
         </div>  
     </div>
     <div class="container">
         <div class="top">
             <h1>San Jose</h1>
-            <select>
+            <label for="temperature">Show temperature in <select id="temperature" onchange="DegChanger()"></label>
                 <option>°C</option>
                 <option>°F</option>
             </select>
@@ -31,8 +31,8 @@
                 <img src="./assets/some_rain.png" alt="rain" class="weather-img">
                 <h3>Some Rain</h3>
                 <div class="degs">
-                    <h3 class="red-deg">24°</h3>
-                    <h3 class="blue-deg">18°</h3>
+                    <h3 class="red-deg" id="deg01">24°</h3>
+                    <h3 class="blue-deg" id="deg02">18°</h3>
                 </div>
             </div>
             <div class="tomorrow weather">
@@ -40,8 +40,8 @@
                 <img src="./assets/some_sun.png" alt="sun" class="weather-img">
                 <h3>Some Sun</h3>
                 <div class="degs">
-                    <h3 class="red-deg">27°</h3>
-                    <h3 class="blue-deg">19°</h3>
+                    <h3 class="red-deg" id="deg03">27°</h3>
+                    <h3 class="blue-deg" id="deg04">19°</h3>
                 </div>
             </div>
             <div class="friday weather">
@@ -49,8 +49,8 @@
                 <img src="./assets/some_clouds.png" alt="clouds" class="weather-img">
                 <h3>Some Clouds</h3>
                 <div class="degs">
-                    <h3 class="red-deg">21°</h3>
-                    <h3 class="blue-deg">16°</h3>
+                    <h3 class="red-deg" id="deg05">21°</h3>
+                    <h3 class="blue-deg" id="deg06">16°</h3>
                 </div>
             </div>
             <div class="saturday weather">
@@ -58,8 +58,8 @@
                 <img src="./assets/some_sun.png" alt="sun" class="weather-img">
                 <h3>Some Sun</h3>
                 <div class="degs">
-                    <h3 class="red-deg">26°</h3>
-                    <h3 class="blue-deg">21°</h3>
+                    <h3 class="red-deg" id="deg07">26°</h3>
+                    <h3 class="blue-deg" id="deg08">21°</h3>
                 </div>
             </div>
         </div>
@@ -70,17 +70,9 @@
                 <p>We use cookies (sadly not the edible ones) to personlize content and ads, to provide social media features and to analyse our traffic. <a href="#">Read more...</a></p>
             </div>
             <div class="btn-btn">
-            <button id="btn">I accept</button></div>
+            <button id="btn" onclick="hide()">I accept</button></div>
         </div>
     </div>
-
-
-
-
-
-
-
-
     <script src="./script.js"></script>
 </body>
 </html>

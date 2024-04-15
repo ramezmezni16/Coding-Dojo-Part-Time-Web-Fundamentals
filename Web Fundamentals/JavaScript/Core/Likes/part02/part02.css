@@ -17,6 +17,7 @@ body{
     color: white;
     font-weight: bold;
     padding: 20px;
+    display: flex;
 }
 
 .feed {
